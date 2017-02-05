@@ -81,7 +81,7 @@
         :end end
         :fill "#000000"
         :stroke-width 1
-        :stroke "#000000"}])
+        :stroke "orange"}])
     (for [[i [x y]] (map-indexed vector (get @state :vertices))]
       ^{:key i}
       [:circle
