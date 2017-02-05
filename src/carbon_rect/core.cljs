@@ -79,7 +79,7 @@
       [bezier
        {:start start
         :end end
-        :fill "#ffffff"
+        :fill "#000000"
         :stroke-width 1
         :stroke "#000000"}])
     (for [[i [x y]] (map-indexed vector (get @state :vertices))]
